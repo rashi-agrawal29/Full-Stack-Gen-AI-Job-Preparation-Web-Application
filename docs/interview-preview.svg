@@ -1,0 +1,58 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#0B1220"/>
+  <rect x="90" y="80" width="1220" height="740" rx="26" fill="#121C2D" stroke="#2A3A4E"/>
+
+  <rect x="120" y="110" width="240" height="660" rx="18" fill="#141F31" stroke="#2A3A4E"/>
+  <rect x="150" y="150" width="178" height="40" rx="10" fill="#202D40"/>
+  <text x="182" y="176" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="16" font-weight="700">Back</text>
+  <text x="155" y="240" fill="#8B97AB" font-family="Arial, sans-serif" font-size="15" font-weight="700">SECTIONS</text>
+  <rect x="150" y="270" width="180" height="40" rx="10" fill="#1C2B3C"/>
+  <text x="188" y="297" fill="#FF2D78" font-family="Arial, sans-serif" font-size="16" font-weight="700">Technical Questions</text>
+  <text x="188" y="360" fill="#CDD8EA" font-family="Arial, sans-serif" font-size="16">Behavioral Questions</text>
+  <text x="188" y="440" fill="#CDD8EA" font-family="Arial, sans-serif" font-size="16">Road Map</text>
+
+  <rect x="370" y="110" width="690" height="660" rx="18" fill="#111B2B" stroke="#2A3A4E"/>
+  <rect x="390" y="132" width="260" height="42" rx="10" fill="#202D40"/>
+  <text x="425" y="160" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Technical Questions</text>
+  <text x="885" y="160" fill="#8B97AB" font-family="Arial, sans-serif" font-size="18">5 questions</text>
+
+  <rect x="390" y="205" width="640" height="72" rx="12" fill="#1B263A" stroke="#354868"/>
+  <rect x="410" y="225" width="22" height="30" rx="8" fill="#FF2D78"/>
+  <text x="448" y="247" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="16">Can you explain how you would design ...</text>
+
+  <rect x="390" y="292" width="640" height="72" rx="12" fill="#1B263A" stroke="#354868"/>
+  <rect x="410" y="312" width="22" height="30" rx="8" fill="#FF2D78"/>
+  <text x="448" y="334" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="16">How do you handle metadata ingestion ...</text>
+
+  <rect x="390" y="379" width="640" height="72" rx="12" fill="#1B263A" stroke="#354868"/>
+  <rect x="410" y="399" width="22" height="30" rx="8" fill="#FF2D78"/>
+  <text x="448" y="421" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="16">What is your experience with Apache Solr ...</text>
+
+  <rect x="390" y="466" width="640" height="72" rx="12" fill="#1B263A" stroke="#354868"/>
+  <rect x="410" y="486" width="22" height="30" rx="8" fill="#FF2D78"/>
+  <text x="448" y="508" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="16">How do you implement CI/CD pipelines ...</text>
+
+  <rect x="390" y="553" width="640" height="72" rx="12" fill="#1B263A" stroke="#354868"/>
+  <rect x="410" y="573" width="22" height="30" rx="8" fill="#FF2D78"/>
+  <text x="448" y="595" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="16">Can you walk me through ...</text>
+
+  <rect x="1085" y="110" width="200" height="660" rx="18" fill="#141F31" stroke="#2A3A4E"/>
+  <text x="1128" y="170" fill="#8B97AB" font-family="Arial, sans-serif" font-size="15" font-weight="700">MATCH SCORE</text>
+  <circle cx="1185" cy="245" r="58" stroke="#2EE08A" stroke-width="8" fill="none"/>
+  <text x="1155" y="255" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="36" font-weight="700">88</text>
+  <text x="1172" y="300" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="16">%</text>
+  <text x="1110" y="340" fill="#8B97AB" font-family="Arial, sans-serif" font-size="15">Strong match</text>
+
+  <text x="1128" y="410" fill="#8B97AB" font-family="Arial, sans-serif" font-size="15" font-weight="700">SKILL GAPS</text>
+  <rect x="1120" y="430" width="120" height="34" rx="8" fill="#1B263A" stroke="#354868"/>
+  <text x="1138" y="453" fill="#FF5F5F" font-family="Arial, sans-serif" font-size="12" font-weight="700">Apache Solr</text>
+
+  <rect x="1120" y="475" width="134" height="34" rx="8" fill="#1B263A" stroke="#354868"/>
+  <text x="1138" y="498" fill="#FFB84D" font-family="Arial, sans-serif" font-size="12" font-weight="700">Blacklight</text>
+
+  <rect x="1120" y="520" width="124" height="34" rx="8" fill="#1B263A" stroke="#354868"/>
+  <text x="1138" y="543" fill="#FF8A5E" font-family="Arial, sans-serif" font-size="12" font-weight="700">Ansible</text>
+
+  <rect x="1120" y="565" width="130" height="34" rx="8" fill="#1B263A" stroke="#354868"/>
+  <text x="1138" y="588" fill="#66D98B" font-family="Arial, sans-serif" font-size="12" font-weight="700">Splunk</text>
+</svg>
