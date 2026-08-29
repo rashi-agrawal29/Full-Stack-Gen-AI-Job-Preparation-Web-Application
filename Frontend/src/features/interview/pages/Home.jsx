@@ -3,12 +3,14 @@ import React, { useState, useRef } from 'react'
 import "../style/home.scss"
 import { useInterview } from '../hooks/useInterview.js'
 import { useNavigate } from 'react-router'
+import TopBar from '../../auth/components/TopBar.jsx'
 
 const Home = () => {
 
     const { loading, generateReport, reports } = useInterview()
     const [jobDescription, setJobDescription] = useState("")
     const [selfDescription, setSelfDescription] = useState("")
+    const [resumeFileName, setResumeFileName] = useState("")
     const resumeInputRef = useRef()
 
     const navigate = useNavigate()
@@ -29,6 +31,7 @@ const Home = () => {
 
     return (
         <div className='home-page'>
+            <TopBar />
 
             {/* Page Header */}
             <header className='page-header'>
@@ -82,8 +85,14 @@ const Home = () => {
                                 </span>
                                 <p className='dropzone__title'>Click to upload or drag &amp; drop</p>
                                 <p className='dropzone__subtitle'>PDF or DOCX (Max 5MB)</p>
-                                <input ref={resumeInputRef} hidden type='file' id='resume' name='resume' accept='.pdf,.docx' />
+                                <input ref={resumeInputRef} hidden type='file' id='resume' name='resume' accept='.pdf,.docx' onChange={(e) => { const f = e.target.files[0]; setResumeFileName(f ? f.name : "") }} />
                             </label>
+                            {resumeFileName && (
+                                <div className='uploaded-file-name' aria-live='polite'>
+                                    <span>Uploaded: {resumeFileName}</span>
+                                    <span className='uploaded-file-name__icon' aria-hidden='true' style={{ marginLeft: '0.5rem', color: '#16a34a', fontWeight: 600 }}>✓</span>
+                                </div>
+                            )}
                         </div>
 
                         {/* OR Divider */}
