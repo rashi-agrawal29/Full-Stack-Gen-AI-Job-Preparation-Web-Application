@@ -87,6 +87,7 @@ async function generateInterviewReport({
                         Resume: ${resume}
                         Self Description: ${selfDescription}
                         Job Description: ${jobDescription}
+                        Atleast 5 technical questions and 5 behavioral questions should be generated, along with the interviewer's intention behind each question and guidance on how to answer each question.
     `
 
     const response = await ai.models.generateContent({

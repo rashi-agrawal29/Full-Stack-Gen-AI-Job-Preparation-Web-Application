@@ -11,7 +11,7 @@ function App() {
     <AuthProvider>
       <InterviewProvider>
         <RouterProvider router={router} />
-      </InterviewProvider>ß
+      </InterviewProvider>
     </AuthProvider>
 
   )
