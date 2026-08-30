@@ -97,7 +97,7 @@ Recruiters and hiring teams often look for product thinking, full-stack executio
 ### Home Dashboard
 
 <p align="center">
-  <img src="docs/interview-preview.svg" alt="Interview Report dashboard preview" width="1000" />
+  <img src="docs/interview-preview.png" alt="Interview Report dashboard preview" width="1000" />
 </p>
 
 ### Interview Report View
